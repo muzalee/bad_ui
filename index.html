@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bad UI</title>
+        <link rel="stylesheet" href="style.css">
+
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            li {
+                display: block;
+                margin: 0 0 10px 0;
+                padding: 20px 30px;
+                background-color: #444;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                border: none;
+                box-shadow: none;
+            }
+
+            li:hover {
+                background-color: #aaa;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            @media (max-width: 768px) {
+                ul {
+                    font-size: 12px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <ul>
+                <li><a href="birthdate_selector.html">Birthdate Selector</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
